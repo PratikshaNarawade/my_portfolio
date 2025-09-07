@@ -1,0 +1,273 @@
+.education {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Container */
+.edu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  flex-wrap: wrap;
+  opacity: 0;
+  transform: translateY(100px);
+  animation: mymove 1s ease-out 1s forwards;
+}
+
+/* Image */
+.edu-img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(100px);
+  animation: mymove 1s ease-out 1s forwards;
+}
+
+/* Animation */
+@keyframes mymove {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Right Content */
+.edu-right {
+  opacity: 0;
+  transform: translateY(100px);
+  animation: mymove 1s ease-out 1s forwards;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Titles */
+.edu-title {
+  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #222;
+  
+}
+
+.edu-subtitle {
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #262424;
+}
+
+.edu-text {
+  /* font-size: clamp(1rem, 1.5vw, 1.3rem); */
+  line-height: 1.6;
+ 
+  max-width: 550px;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #6c757d;
+  font-weight: 500;
+   line-height: 1.6;
+}
+
+/* Logo */
+.edu-logo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #e63950;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  
+}
+
+.edu-logo img:hover {
+  transform: scale(1.06);
+  box-shadow: 0 8px 22px rgba(230, 57, 80, 0.25);
+}
+
+/* Card */
+
+.edu-title2 {
+  font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+  font-weight: 700;
+  margin-top: 50px;
+  color: #222;
+   opacity: 0;
+  transform: translateY(100px);
+  animation: mymove 1s ease-out 1s forwards;
+}
+.edu-card {
+  background: #fff;
+  border: 2px solid #e63950;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(171, 42, 42, 0.08);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+ 
+}
+
+/* Header */
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e63950;
+  color: #fff;
+  padding: 12px 15px;
+  border-radius: 10px 10px 0 0;
+  font-size: 1rem;
+  font-weight: 600;
+  
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.edu-year {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Degree */
+.edu-degree {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 15px 10px;
+  color: #333;
+}
+
+/* Details */
+.edu-details {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+/* Button */
+.edu-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #e63950;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+  margin: 10px;
+  float: right;
+}
+
+.edu-btn:hover {
+  background: #9d0e21;
+}
+
+/* ----------- Responsive ----------- */
+
+/* Tablets and above */
+@media (min-width: 768px) {
+  .edu-container {
+    flex-direction: row;
+    text-align: left;
+    margin-left: 100px;
+  }
+
+  .edu-right {
+    flex: 1;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 767px) {
+  .edu-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .edu-card {
+    text-align: center;
+  }
+
+  .edu-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .edu-btn {
+    float: none;
+    display: block;
+    margin: 15px auto 0;
+  }
+}
+
+.certifications {
+  text-align: center;
+  padding: 50px 20px;
+  opacity: 0;
+  transform: translateY(100px);
+  animation: mymove 1s ease-out 1s forwards;
+}
+
+.cert-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.cert-card {
+  text-decoration: none;
+  border-radius: 12px;
+  padding: 20px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cert-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.cert-box {
+  text-align: center;
+}
+
+.cert-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.cert-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 8px 0 5px;
+}
+
+.cert-org {
+  font-size: 0.95rem;
+  font-weight: 500;
+}

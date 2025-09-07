@@ -1,0 +1,229 @@
+/* ==========================
+   CONTACT SECTION
+========================== */
+.contact {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 1100px; /* ✅ keeps content centered */
+  opacity: 0;
+  transform: translateY(100px);
+  animation: mymove 1s ease-out 1s forwards;
+}
+
+/* Animation */
+@keyframes mymove {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+/* Left Side Image */
+.contact-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-img {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  margin-top: 30px;
+}
+
+/* Right Side */
+.contact-right {
+  flex: 1;
+  text-align: left;
+  min-width: 280px;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #222;
+  text-align: center;
+}
+
+.contact-text {
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+/* Social Icons */
+.contact-icons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contact-icons a {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.contact-icons a:hover {
+  background: #e63950;
+  transform: scale(1.1);
+}
+
+/* Resume Button */
+.resume-btn {
+  display: block;
+  padding: 12px 25px;
+  background: #e63950;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+}
+
+.resume-btn:hover {
+  background: #b31634;
+  transform: scale(1.05);
+}
+
+/* Responsive Contact */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-right {
+    text-align: center;
+  }
+
+  .contact-img {
+    margin-bottom: 20px;
+  }
+}
+
+/* ==========================
+   BLOGS SECTION
+========================== */
+.blogs {
+  padding: 60px 20px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(100px);
+  animation: mymove 1s ease-out 1s forwards;
+}
+
+.blogs-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.blogs-left {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.blogs-title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.blogs-text {
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.blogs-btn {
+  display: block;
+  padding: 12px 25px;
+  background: #e63950;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+  margin: 0 auto;
+  text-align: center;
+  width: 220px;
+}
+
+.blogs-btn:hover {
+  background: #cc0052;
+  transform: scale(1.05);
+}
+
+.blogs-right {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.blogs-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Blogs */
+@media (max-width: 768px) {
+  .blogs-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .blogs-left {
+    text-align: center;
+  }
+
+  .blogs-btn {
+    width: 100%; /* full-width button on small screens */
+    max-width: 250px;
+  }
+  .contact-img {
+    margin-top: 60px;
+  }
+}
