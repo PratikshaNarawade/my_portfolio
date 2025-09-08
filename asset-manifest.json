@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.c06abafa.css",
-    "main.js": "/my_portfolio/static/js/main.04f8b0ed.js",
+    "main.js": "/my_portfolio/static/js/main.0567a369.js",
     "static/js/453.ad7768ec.chunk.js": "/my_portfolio/static/js/453.ad7768ec.chunk.js",
     "static/media/Python for Data Science_page-0001.jpg": "/my_portfolio/static/media/Python for Data Science_page-0001.32195cc3605f98e03e75.jpg",
     "static/media/Systems and Usable Security_page-0001.jpg": "/my_portfolio/static/media/Systems and Usable Security_page-0001.c31d889ccaf1761d291d.jpg",
@@ -35,11 +35,11 @@
     "static/media/hope.jpg": "/my_portfolio/static/media/hope.b4dd60b78ca2f5521e71.jpg",
     "index.html": "/my_portfolio/index.html",
     "main.c06abafa.css.map": "/my_portfolio/static/css/main.c06abafa.css.map",
-    "main.04f8b0ed.js.map": "/my_portfolio/static/js/main.04f8b0ed.js.map",
+    "main.0567a369.js.map": "/my_portfolio/static/js/main.0567a369.js.map",
     "453.ad7768ec.chunk.js.map": "/my_portfolio/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c06abafa.css",
-    "static/js/main.04f8b0ed.js"
+    "static/js/main.0567a369.js"
   ]
 }
