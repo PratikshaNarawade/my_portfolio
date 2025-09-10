@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.c06abafa.css",
-    "main.js": "/my_portfolio/static/js/main.feb50dc6.js",
+    "main.css": "/my_portfolio/static/css/main.632d3f2f.css",
+    "main.js": "/my_portfolio/static/js/main.134c9bd6.js",
     "static/js/453.ad7768ec.chunk.js": "/my_portfolio/static/js/453.ad7768ec.chunk.js",
     "static/media/Python for Data Science_page-0001.jpg": "/my_portfolio/static/media/Python for Data Science_page-0001.32195cc3605f98e03e75.jpg",
     "static/media/Systems and Usable Security_page-0001.jpg": "/my_portfolio/static/media/Systems and Usable Security_page-0001.c31d889ccaf1761d291d.jpg",
@@ -9,7 +9,7 @@
     "static/media/python_page-0001.jpg": "/my_portfolio/static/media/python_page-0001.bf325db622c72f1ca3d9.jpg",
     "static/media/NPTEL_logo.png": "/my_portfolio/static/media/NPTEL_logo.bfa73678383f06c530b4.png",
     "static/media/TCS_page-0001.jpg": "/my_portfolio/static/media/TCS_page-0001.dfe5d6f4f9325cc77b3e.jpg",
-    "static/media/Resume.pdf": "/my_portfolio/static/media/Resume.9e9c64dafd1d9ba42c54.pdf",
+    "static/media/Resume_PratikshaNarawade_Dev.pdf": "/my_portfolio/static/media/Resume_PratikshaNarawade_Dev.a542d94330509a352054.pdf",
     "static/media/photo 1.png": "/my_portfolio/static/media/photo 1.910707ce169efcf5c127.png",
     "static/media/kai-logo.png": "/my_portfolio/static/media/kai-logo.8e6ebf7f8bdf4b843631.png",
     "static/media/internship_cpmpletion.jpg": "/my_portfolio/static/media/internship_cpmpletion.bc9f9d36abac4fb2f8a9.jpg",
@@ -22,6 +22,7 @@
     "static/media/java.png": "/my_portfolio/static/media/java.ddf8676bd569fe01ab44.png",
     "static/media/node.png": "/my_portfolio/static/media/node.3e12746fd56e98855665.png",
     "static/media/education.png": "/my_portfolio/static/media/education.fe49641f97d0d53064ce.png",
+    "static/media/portfolio-management.png": "/my_portfolio/static/media/portfolio-management.ed36ff76d98b4966a972.png",
     "static/media/whatIdo.png": "/my_portfolio/static/media/whatIdo.3fabc41aeb53082d024e.png",
     "static/media/hero1.png": "/my_portfolio/static/media/hero1.0e92da58a2f20e2c6232.png",
     "static/media/python.png": "/my_portfolio/static/media/python.c2f539d50caa3745ce64.png",
@@ -34,12 +35,12 @@
     "static/media/js.png": "/my_portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/hope.jpg": "/my_portfolio/static/media/hope.b4dd60b78ca2f5521e71.jpg",
     "index.html": "/my_portfolio/index.html",
-    "main.c06abafa.css.map": "/my_portfolio/static/css/main.c06abafa.css.map",
-    "main.feb50dc6.js.map": "/my_portfolio/static/js/main.feb50dc6.js.map",
+    "main.632d3f2f.css.map": "/my_portfolio/static/css/main.632d3f2f.css.map",
+    "main.134c9bd6.js.map": "/my_portfolio/static/js/main.134c9bd6.js.map",
     "453.ad7768ec.chunk.js.map": "/my_portfolio/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c06abafa.css",
-    "static/js/main.feb50dc6.js"
+    "static/css/main.632d3f2f.css",
+    "static/js/main.134c9bd6.js"
   ]
 }
